@@ -1,0 +1,22 @@
+﻿<Page x:Class="WpfApp1.Pages.vhod"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="vhod">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Margin="293,18,233,0" FontSize="22" FontWeight="Bold" Width="274"><Run Text="  "/><Run Text="Форма авторизации"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Пожалуйста, авторизуйтесь в системе, импользуя ваш адрес электронной почты и пароль." VerticalAlignment="Top" Margin="157,56,18,0" Width="625" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top" Margin="0,92,491,0" FontSize="14" RenderTransformOrigin="0.543,-0.622"/>
+        <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Margin="0,122,490,0" FontSize="14" RenderTransformOrigin="0.415,-0.867"/>
+        <TextBox  Text="a.connell@gmail.com" x:Name="LoginBox"  HorizontalAlignment="Left" Height="23" Margin="323,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="235"/>
+        <PasswordBox Password="H0euIpYf" x:Name="PassBox" HorizontalAlignment="Left" Margin="324,117,0,0" VerticalAlignment="Top" Width="234" Height="24"/>
+        <Button Content="Login" HorizontalAlignment="Left" x:Name="LoginButton" Margin="327,156,0,0" VerticalAlignment="Top" Width="75" Click="LoginButton_Click"/>
+        <Button  x:Name="CancelButton" Click="Cancel_Click" Content="Cancel" HorizontalAlignment="Left" Margin="412,156,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Page>

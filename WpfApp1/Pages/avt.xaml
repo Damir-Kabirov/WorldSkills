@@ -1,0 +1,19 @@
+﻿<Page x:Class="WpfApp1.Pages.avt"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="avt">
+
+    <Grid>
+        <Button Name="ran" Click="Ran_Click" Content="Я участвовал ранее" HorizontalAlignment="Left" Margin="261,23,0,0" VerticalAlignment="Top" Width="286" Height="53" RenderTransformOrigin="0.5,0.5">
+
+        </Button>
+        <Button Name="novoi" Click="Novoi_Click" Content="Я новый участник" HorizontalAlignment="Left" Margin="260,106,0,0" VerticalAlignment="Top" Width="286" Height="56" RenderTransformOrigin="0.5,0.5">
+
+        </Button>
+    </Grid>
+</Page>

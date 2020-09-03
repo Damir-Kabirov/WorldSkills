@@ -1,0 +1,18 @@
+﻿<Page x:Class="WpfApp1.Pages.sponsor"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="sponsor">
+
+    <Grid>
+        <ComboBox DisplayMemberPath="RoleName" Name="RoleNameComboBox" HorizontalAlignment="Left" Margin="303,-10,0,0" VerticalAlignment="Top" Width="187" Height="25"/>
+        <Button Content="Выполнить фильтр" Name="filtButton" HorizontalAlignment="Left" Margin="303,20,0,0" VerticalAlignment="Top" Width="187" Height="33" Click="FiltButton_Click"/>
+        <Button Content="Обновить" Name="VceButton" HorizontalAlignment="Left" Margin="360,58,0,0" VerticalAlignment="Top" Width="80" Click="VceButton_Click"/>
+        <DataGrid AutoGenerateColumns="True" Name="roleDataGrid" Margin="0,85,0,20"/>
+
+    </Grid>
+</Page>
